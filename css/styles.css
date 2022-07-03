@@ -1,0 +1,22 @@
+:root {
+    /* fonts */
+    --main-font: 'Roboto', sans-serif;
+    --secondary-fond: 'Raleway', sans-serif;
+
+    /* text colors */
+    --main-txt-cl: #212121;
+    --secondary-xt-cl: #757575;
+    --aсcent-cl: #2196F3;
+    
+    /* bg colors */
+    --dark-bg-cl: #2F303A;
+    --light-bg-cl: #F5F4FA;
+
+    
+    /* others */
+}
+
+.body{
+    font-family: var(--main-font);
+    color: var(--main-txt-cl);
+}
