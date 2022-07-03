@@ -6,7 +6,7 @@
     /* text colors */
     --main-txt-cl: #212121;
     --secondary-xt-cl: #757575;
-    --aсcent-cl: #2196F3;
+    --accent-cl: #2196F3;
     
     /* bg colors */
     --dark-bg-cl: #2F303A;
@@ -19,4 +19,11 @@
 .body{
     font-family: var(--main-font);
     color: var(--main-txt-cl);
+}
+/* reset styles*/
+.link{
+text-decoration: none;
+}
+.list{
+list-style: none;
 }
