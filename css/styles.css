@@ -57,9 +57,24 @@
 .nav-link-current {
     color: var(--accent-cl);
 }
+.header-mail {
+    font-weight: 500;
+font-size: 14px;
+line-height: calc(16 / 14) ;
+letter-spacing: 0.02em;
+color:var(--accent-cl);
+}
+.header-phone {
+    font-weight: 500;
+font-size: 14px;
+line-height: calc(16 / 14) ;
+letter-spacing: 0.02em;
+color: var(--secondary-xt-cl);
+}
 
 /* hero section */
-.hero {
+.hero,
+.footer {
   background: #2f303a;
 }
 .hero-title {
@@ -74,4 +89,26 @@
   line-height: calc(30 / 16);
   color: #ffffff;
   background: var(--accent-cl);
+}
+/* features section */
+.none-title {
+    display: none;
+}
+.features-title {
+font-weight: 700;
+font-size: 14px;
+line-height: calc(16 / 14);
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: var(--main-txt-cl) ;
+}
+.features-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: calc(24 / 14);
+    letter-spacing: 0.03em;
+    color: var(--secondary-xt-cl);  
+}
+.features {
+    background: #E5E5E5  
 }
