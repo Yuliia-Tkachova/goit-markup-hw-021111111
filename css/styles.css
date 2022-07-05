@@ -30,17 +30,14 @@
 
 /* header section */
 .logo {
+  font-family: var(--secondary-fond);
   font-weight: 700;
   font-size: 26px;
-  line-height: calk(31 / 26);
+  line-height: calc(31 / 26);
   letter-spacing: 0.03em;
   color: #000000;
 }
 .logo-web {
-  font-weight: 700;
-  font-size: 26px;
-  line-height: calk(31 / 26);
-  letter-spacing: 0.03em;
   color: var(--accent-cl);
 }
 .nav-link {
@@ -102,15 +99,21 @@
 .hero-title {
   font-weight: 900;
   font-size: 44px;
-  line-height: 60px;
+  line-height: calc(60 / 44);
   color: #ffffff;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 .hero-btn {
+  font-family: inherit;
   font-weight: 700;
   font-size: 16px;
   line-height: calc(30 / 16);
   color: #ffffff;
   background: var(--accent-cl);
+  display: flex;
+  letter-spacing: 0.06em;
 }
 /* features section */
 .none-title {
@@ -125,15 +128,10 @@
   color: var(--main-txt-cl);
 }
 .features-text {
-  font-weight: 400;
   font-size: 14px;
   line-height: calc(24 / 14);
   letter-spacing: 0.03em;
   color: var(--secondary-xt-cl);
-}
-.features,
-.about {
-  background: #e5e5e5;
 }
 /*about and team sections */
 .about-title,
@@ -157,7 +155,6 @@
   color: var(--main-txt-cl);
 }
 .team-text {
-  font-weight: 400;
   font-size: 16px;
   line-height: calc(19 / 16);
   text-align: center;
@@ -174,7 +171,6 @@
   color: #ffffff;
 }
 .address-link {
-  font-weight: 400;
   font-size: 14px;
   line-height: calc(24 / 14);
   letter-spacing: 0.03em;
@@ -182,7 +178,6 @@
 }
 .address-mail,
 .address-phone {
-  font-weight: 400;
   font-size: 14px;
   line-height: calc(24 / 14);
   letter-spacing: 0.03em;
@@ -190,6 +185,7 @@
 }
 /* portfolio */
 .filters-btn {
+  font-family: inherit;
   background: var(--light-bg-cl);
   border-radius: 4px;
   font-weight: 500;
@@ -198,6 +194,7 @@
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--main-txt-cl);
+  cursor: pointer;
 }
 .portf-title {
   font-weight: 700;
@@ -207,7 +204,6 @@
   color: var(--main-txt-cl);
 }
 .portf-text {
-  font-weight: 400;
   font-size: 16px;
   line-height: calc(30 / 16);
   letter-spacing: 0.03em;
@@ -215,14 +211,14 @@
 }
 .filters-btn-current {
   background-color: var(--accent-cl);
+  color: #ffffff;
 }
 
 .filters-btn:hover,
 .filters-btn:focus {
   background-color: var(--accent-cl);
+  color: #ffffff;
 }
-.address-link,
-.address-mail,
-.address-phone {
+.address {
   font-style: normal;
 }
